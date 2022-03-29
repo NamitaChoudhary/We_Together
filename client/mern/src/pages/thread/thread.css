@@ -1,0 +1,12 @@
+.threadContainer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.threadWrapper{
+    width: 50%;
+    height: 50%;
+   display: flex;
+}

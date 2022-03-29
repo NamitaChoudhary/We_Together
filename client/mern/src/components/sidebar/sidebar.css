@@ -1,0 +1,39 @@
+.sidebar{
+    flex: 3;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+    /* background-color: orange; */
+    
+}
+.sidebarWrapper{
+    padding: 20px;
+    /* background-color: yellowgreen; */
+    margin-top: 30px;
+
+}
+.ProfileImage{
+
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.sidebarList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.sidebarIcon{
+    margin-right: 15px;
+}
+.sidebarHr{
+    margin: 20px 0;
+}
